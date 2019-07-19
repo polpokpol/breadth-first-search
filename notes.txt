@@ -1,0 +1,18 @@
+BFS CLASS:
+
+in this code, first we print the root and next is its
+neighbors and after such, the neighbors of its neighbors and so on
+also known as their child.
+
+to do this, we will implement a queue and a linkedlist to print the
+correct order of data.
+
+first we setvisited the root to TRUE and append the root to the linkedlist and delete & transfer to 
+another variable then print that variable.
+
+iterate the variable neighbors and set it to visited if not yet visited and append it to
+the queue to wait for its turn since it is a FIFO structure.
+
+the same will happen to every element of the linkedlist. it gets deleted and printed out
+and if it has a neighbor it will go to the queue until the queue is empty
+
